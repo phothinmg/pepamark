@@ -1,0 +1,25 @@
+{
+  "name": "pepamark",
+  "version": "1.0.1",
+  "description": "TypeScript Markdown parser and HTML renderer",
+  "keywords": [],
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "oxnode --test",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "fmt": "oxfmt",
+    "fmt:check": "oxfmt --check",
+    "build": "susee build"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "oxfmt": "^0.72.0",
+    "oxlint": "^1.87.0",
+    "oxnode": "^0.0.34",
+    "susee": "^2.3.0",
+    "typescript": "^7.0.2"
+  }
+}
