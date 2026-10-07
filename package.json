@@ -21,5 +21,15 @@
     "oxnode": "^0.0.34",
     "susee": "^2.3.0",
     "typescript": "^7.0.2"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phothinmg/pepamark"
   }
 }
